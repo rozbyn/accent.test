@@ -9,7 +9,7 @@ if (!defined('ACCENT_TEST_MODULE')) {
     define('ACCENT_TEST_MODULE', 'accent.test');
 }
 
-Loader::includeModule(ACCENT_TEST_MODULE);
+Loader::requireModule(ACCENT_TEST_MODULE);
 ?>
 
 Номер телефона: <?= Options::getPhone() ?> <br>
